@@ -1,0 +1,672 @@
+/* CSS styles for the body element */
+body {
+    /* Resetting default margin, padding, and background color */
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+/* CSS styles for unordered lists */
+ul {
+    /* Removing default list styles and setting margin and padding */
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 12px 10px 0 10px;
+}
+
+/* CSS styles for list items */
+li {
+    /* Displaying list items inline */
+    display: inline;
+    /* Setting margin and color */
+    margin: 5px 10px;
+    color: white;
+}
+
+/* CSS styles for anchor links */
+a {
+    /* Removing default underline and setting text color */
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS styles for navigation bar */
+nav {
+    /* Setting background color, font, border, and positioning */
+    margin-top: 0 10px;
+    background-color: #163020; /* 294B29 */
+    font-family: Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Hover effect for navigation links */
+nav h3 a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
+
+/* CSS styles for navigation list items */
+nav ul li {
+    color: whitesmoke;
+    padding: 0 20px;
+}
+
+/* CSS styles for navigation links */
+nav ul li a{
+    color: whitesmoke;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
+
+/* CSS styles for navigation heading */
+nav h3{
+    float: left;
+    color: whitesmoke;
+    padding-left: 40px;
+}
+
+/* CSS styles for navigation list */
+nav ul{
+    overflow: auto;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+/* CSS styles for header heading */
+header h1 {
+    /* Centering text, setting font, size, and margin */
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    font-size: 200px;
+    margin-top: 0px;
+    text-shadow: 4px 4px 8px black;
+    padding-top: 240px;
+    opacity: 1;
+}
+
+/* CSS styles for header anchor links */
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS styles for background image */
+.BgImg {
+    /* Setting background image, size, opacity, and border */
+    background-image: url("../img/fruitsBgPic.jpeg");
+    height: 740px;
+    background-size: cover;
+    opacity: 0.75;
+    border-bottom: 2px solid black;
+}
+
+/* Hover effect for background image links */
+.BgImg a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+/* CSS styles for introduction heading */
+#intro h2 {
+    /* Setting font, size, and margin */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+/* CSS styles for introduction paragraph */
+#intro p {
+    /* Setting font size and margins */
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+/* CSS styles for introduction image */
+#intro img {
+    /* Setting size, float, margins, border radius, and shadow */
+    height: 450px;
+    width: 450px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* CSS styles for types of fruits section */
+#typesOfFruits {
+    /* Setting text alignment, height, background color, and overflow */
+    text-align: center;
+    height: 750px;
+    height: 100%;
+    background-color: #e8e8e8;
+    overflow: auto;
+    padding: 0;
+}
+
+/* CSS styles for types of fruits heading */
+#typesOfFruits h2 {
+    /* Setting font, size, and margin */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+/* CSS styles for individual fruit sections */
+#typesOfFruits section {
+    /* Displaying inline-block, setting width, height, margin, background color, border, and font */
+    display: inline-block;
+    width: 25%;
+    height: 490px;
+    margin: 20px 30px 40px 60px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CSS styles for fruit images */
+#typesOfFruits img {
+    /* Setting width and height */
+    width: 100%;
+    height: 350px;
+}
+
+/* CSS styles for product image */
+.prodImg {
+    /* Setting margin, height, and width */
+    margin-top: 6%;
+    height: 350px;
+    width: 100%;
+}
+
+/* CSS styles for product text */
+.prodTxt {
+    /* Setting background color, width, height, margin, border radius, and border */
+    background-color: #c3c4c3;
+    width: 100%;
+    height: 115px;
+    margin-top: 0;
+    border-radius: 0 0 30px 30px;
+    border-bottom: 1px solid black;
+}
+
+/* CSS styles for product heading */
+.prodTxt h4 {
+    /* Setting text alignment, font size, margin, and padding */
+    text-align: left;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+/* CSS styles for product description */
+.prodTxt p {
+    /* Setting font size */
+    font-size: 20px;
+}
+
+/* CSS styles for types of seeds section */
+#typesOfSeeds {
+    /* Setting text alignment, height, background color, overflow, margin, and padding */
+    text-align: center;
+    height: 900px;
+    background-color: #e8e8e8;
+    overflow: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS styles for types of seeds heading */
+#typesOfSeeds h2 {
+    /* Setting font, size, and margin */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin-top: 5%;
+    padding-left: 6%;
+}
+
+/* CSS styles for individual seed sections */
+#typesOfSeeds section {
+    /* Displaying inline-block, setting width, height, margin, background color, border, and font */
+    display: inline-block;
+    width: 30%;
+    height: 500px;
+    margin: 20px 100px 40px 100px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* CSS styles for seed images */
+#typesOfSeeds img {
+    /* Setting width and height */
+    width: 100%;
+    height: 350px;
+}
+
+/* CSS styles for seed image container */
+.seedsImg {
+    /* Setting margin, height, width, and bottom margin */
+    margin-top: 6%;
+    height: 200px;
+    width: 200px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/* CSS styles for seed text container */
+.seedsTxt {
+    /* Setting background color, height, margin, border radius, border, and bottom margin */
+    background-color: #c3c4c3;
+    height: 155px;
+    margin-top: 123px;
+    border-radius: 0 0 30px 30px;
+    border-bottom: 1px solid black;
+}
+
+/* CSS styles for seed heading */
+.seedsTxt h4 {
+    /* Setting text alignment, font size, margins, and padding */
+    text-align: left;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 15px;
+}
+
+/* CSS styles for seed description */
+.seedsTxt p {
+    /* Setting top margin and font size */
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+/* CSS styles for order information */
+#orderinfo {
+    /* Setting font style, weight, margin, display, width, background color, text alignment, font size, and family */
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #e8e8e8;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2%;
+}
+
+/* CSS styles for order information link */
+#orderinfo a {
+    /* Removing default underline and setting color */
+    text-decoration: none;
+    color: black;
+}
+
+/* Hover effect for order information link */
+#orderinfo a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);
+}
+
+/* CSS styles for footer list heading */
+#ful1 h3 {
+    /* Adding underline to text */
+    text-decoration: underline;
+}
+
+/* CSS styles for footer list heading */
+#ful2 h3 {
+    /* Adding underline to text */
+    text-decoration: underline;
+}
+
+/* Hover effect for footer list items */
+#ful1 li a:hover {
+    /* Removing default underline and adding text shadow */
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
+
+/* Hover effect for footer list items */
+#ful2 li:hover {
+    /* Removing default underline and adding text shadow */
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
+
+/* CSS styles for footer section */
+footer {
+    /* Setting background color, font, text alignment, height, width, margin, and float */
+    background-color: #163020;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    float: left;
+    overflow: auto;
+    border-top: 2px solid black;
+}
+
+/* CSS styles for footer unordered lists */
+footer ul {
+    /* Removing default list styles, setting color, display, and padding */
+    list-style: none;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0;
+}
+
+/* CSS styles for footer list items */
+footer ul li {
+    /* Displaying block, setting font size, and margin */
+    display: block;
+    font-size: 20px;
+    margin: 20px 10px;
+    color: whitesmoke;
+}
+
+/* CSS styles for footer list items */
+#ful1 {
+    /* Floating left and setting margin */
+    float: left;
+    margin-left: 20%;
+}
+
+/* CSS styles for social media icons list items */
+#icons li {
+    /* Displaying inline */
+    display: inline;
+}
+
+/* CSS styles for social media icon links */
+#icons li a {
+    /* Adding padding to icons */
+    padding-top: 3px;
+}
+
+/* CSS styles for Facebook icon */
+.fbIcon {
+    /* Setting width and height */
+    width: 30px;
+    height: 30px;
+}
+
+/* CSS styles for LinkedIn icon */
+.lnIcon {
+    /* Setting width and height */
+    width: 30px;
+    height: 30px;
+}
+
+/* CSS styles for Instagram icon */
+.inIcon {
+    /* Setting width and height */
+    width: 30px;
+    height: 30px;
+}
+
+/* CSS styles for heart icon */
+footer #heartIcon {
+    /* Resetting margin and padding, setting width and height */
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+/* CSS styles for icon links */
+#iconLinks {
+    /* Setting top margin */
+    margin-top: 0%;
+}
+
+/* CSS styles for footer paragraph */
+footer p {
+    /* Clearing left, setting text color */
+    clear: left;
+    color: whitesmoke;
+}
+
+/* CSS styles for footer list item links */
+footer ul li a {
+    /* Removing default underline and setting text color */
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* CSS styles for menu icon */
+#menu_icon {
+    /* Hiding the menu icon by default */
+    display: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 760px) {
+    /* Hiding navigation links */
+    nav ul {
+        display: none;
+        text-align: center;
+    }
+
+    /* Styling for mobile menu */
+    #mobile_menu {
+        text-align: center;
+        float: left;
+    }
+
+    /* Styling for mobile menu unordered lists */
+    #mobile_menu ul {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    /* Styling for mobile menu list items */
+    #mobile_menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Styling for mobile menu list item links */
+    #mobile_menu ul li a {
+        display: block;
+        padding: 10px;
+        background-color: #163020;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Displaying footer unordered lists as block for smaller screens */
+    footer ul {
+        display: block;
+        text-align: center;
+    }
+
+    /* Centering footer lists */
+    #ful1,
+    #ful2 {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Adjusting top margin for icon links */
+    #iconLinks {
+        margin-top: 20px;
+    }
+
+    /* Adjusting margin for icons list items */
+    #icons li {
+        margin: 0 10px;
+    }
+
+    /* Adjusting margin for footer paragraph */
+    footer p {
+        margin-top: 20px;
+    }
+
+    /* Displaying the menu icon */
+    #menu_icon {
+        display: block;
+        cursor: pointer;
+        float: left;
+        padding: 10px;
+        color: white;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+
+    /* Styling for mobile menu */
+    #mobile_menu {
+        display: none;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        background-color: #163020;
+        z-index: 1000;
+    }
+
+    /* Showing mobile menu when the "show" class is present */
+    #mobile_menu.show {
+        display: block;
+    }
+
+    /* Styling for mobile menu unordered lists */
+    #mobile_menu ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    /* Styling for mobile menu list items */
+    #mobile_menu ul li {
+        margin: 10px 0;
+    }
+
+    /* Styling for mobile menu list item links */
+    #mobile_menu ul li a {
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Adjusting navigation links for smaller screens */
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Hiding individual navigation links */
+    nav ul li {
+        display: none;
+    }
+
+    /* Grid layout for fruit and seed sections */
+    #gridcontainer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* Adjusting margin for seed section */
+    #ful2 {
+        margin-left: 1%;
+    }
+
+    /* Adjusting background image size and header font size */
+    .BgImg {
+        background-size: cover;
+        height: 650px;
+    }
+
+    /* Adjusting header font size */
+    .BgImg h1 {
+        font-size: 150px;
+    }
+
+    /* Adjusting margins for introduction section */
+    #intro {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Adjusting margin and font size for introduction heading */
+    #intro h2 {
+        margin-top: 5%;
+        margin-left: 4%;
+        font-size: 40px;
+    }
+
+    /* Adjusting margins and size for introduction image */
+    #intro img {
+        margin-top: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        height: 300px;
+        width: 300px;
+    }
+
+    /* Adjusting margins, font size, and margin bottom for introduction paragraph */
+    #intro p {
+        margin-left: 4%;
+        margin-right: 0;
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    /* Adjusting margins and font size for types of fruits heading */
+    #typesOfFruits h2{
+        margin-top: 4%;
+        font-size: 40px;
+    }
+
+    /* Adjusting display, width, height, margins, background color, border, and font for individual fruit sections */
+    #typesOfFruits section {
+        display: inline-block;
+        width: 25%;
+        height: 480px;
+        margin: 20px 20px 10px 20px;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        border: 1px solid black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Adjusting margins, font size, and margin top for types of seeds heading */
+    #typesOfSeeds h2{
+        margin-top: 6%;
+        font-size: 40px;
+    }
+
+    /* Adjusting display, width, height, margins, background color, border, and font for individual seed sections */
+    #typesOfSeeds section {
+        display: inline-block;
+        width: 25%;
+        height: 480px;
+        margin: 20px 50px 10px 50px;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        border: 1px solid black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
